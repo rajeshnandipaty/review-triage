@@ -1,4 +1,4 @@
-# Multi-Task Review Triage — Evaluation & Error Analysis
+# [Multi-Task Review Triage — Evaluation & Error Analysis](https://rajeshnandipaty.com/projects/review-triage)
 
 This is the evaluation and error-analysis workstream for a three-person M.Eng. AI/ML capstone
 (George Washington University, 2026). The team and I built a multi-task review-triage model: a BERT
