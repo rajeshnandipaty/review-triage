@@ -1,13 +1,12 @@
 # Multi-Task Review Triage — Evaluation & Error Analysis
 
-The evaluation and error-analysis workstream I owned on a three-person M.Eng. AI/ML capstone
-(George Washington University, 2026). The team built a multi-task review-triage model: a BERT
+This is the evaluation and error-analysis workstream for a three-person M.Eng. AI/ML capstone
+(George Washington University, 2026). The team and I built a multi-task review-triage model: a BERT
 encoder with five auxiliary heads (sentiment, emotion, topic, intent, urgency) feeding a four-class
-triage classifier, trained on 12,000 Uber app-store reviews. The architecture and pseudo-labeling
-were teammates' work. My job was measuring it: per-class metrics, the confusion matrix, error
+triage classifier. It trained on 12,000 Uber app-store reviews. My focus was measuring it: per-class metrics, the confusion matrix, error
 analysis, and validating label quality.
 
-## What's in the notebook
+## In the notebook
 
 - **Section 4 — model evaluation.** The trained model's real confusion matrix (transcribed from
   Figure 4.6 of the written report), with per-class precision/recall/F1, macro/weighted F1, and an
